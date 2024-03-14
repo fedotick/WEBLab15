@@ -50,3 +50,8 @@ let rgb = (r = 0, g = 0, b = 0) => `rgb(${r}, ${g}, ${b})`;
 
 alert(rgb(23,100,134));
 alert(rgb());
+
+// 7
+let avg = (...args) => args.reduce((a, b) => a + b) / args.length;
+
+alert(avg(1, 2, 3));
