@@ -12,3 +12,8 @@ let hello2 = function (name = "гость") {
 
 alert(hello2("Василий"));
 alert(hello2());
+
+// 3
+let mul = (n, m) => n * m;
+
+alert(mul(2, 3));
