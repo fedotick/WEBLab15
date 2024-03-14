@@ -30,3 +30,17 @@ function kub(x) {
 let calc = (x, kvadrat, kub) => kvadrat(x) + kub(x);
 
 alert(calc(2, kvadrat, kub));
+
+// 5
+function repeat(str = "", n = 2) {
+    let result = "";
+
+    for(let i = 0 ; i < n; i++) {
+        result += str;
+    }
+
+    return result;
+}
+
+alert(repeat("str", 4));
+alert(repeat("str"));
