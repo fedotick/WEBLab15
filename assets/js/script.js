@@ -60,3 +60,17 @@ alert(avg(1, 2, 3));
 let operation = (m, n, o) => o(m, n);
 
 alert(operation(2, 3, mul)); 
+
+// 9
+function words(n = 0) {
+    if (11 <= n % 100 && n % 100 <= 14) return `${n} товаров`;
+    if (2 <= n % 10 && n % 10 <= 4) return `${n} товара`;
+    if (n % 10 == 1) return `${n} товар`;
+    return `${n} товаров`;
+}
+
+alert(words(11));
+alert(words(21));
+alert(words(111));
+alert(words(121));
+alert(words());
