@@ -55,3 +55,8 @@ alert(rgb());
 let avg = (...args) => args.reduce((a, b) => a + b) / args.length;
 
 alert(avg(1, 2, 3));
+
+// 8
+let operation = (m, n, o) => o(m, n);
+
+alert(operation(2, 3, mul)); 
