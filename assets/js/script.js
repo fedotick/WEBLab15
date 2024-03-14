@@ -44,3 +44,9 @@ function repeat(str = "", n = 2) {
 
 alert(repeat("str", 4));
 alert(repeat("str"));
+
+// 6
+let rgb = (r = 0, g = 0, b = 0) => `rgb(${r}, ${g}, ${b})`;
+
+alert(rgb(23,100,134));
+alert(rgb());
